@@ -1,0 +1,80 @@
+@media (max-width:1400px) {
+    .products-cards{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .product-cards-small{
+        align-items: center;
+        gap: 15px;
+    }
+    .product-cards-verysmall{
+        gap: 15px;
+    }
+}
+
+@media (max-width:767px) {
+    .banner-content{
+        justify-content: center !important;
+    }
+
+    .card-product2::before{
+        font-size: 16px !important;
+        top: 10px !important;
+        left: 10px !important;
+        padding: 16px 8px !important;
+        
+    }
+    .card-product3::before{
+        font-size: 16px !important;
+        bottom: 10px !important;
+        left: 10px !important;
+        padding: 16px 8px !important;
+    }
+    .card-product4::before{
+        font-size: 16px !important;
+        bottom: 10px !important;
+        left: 10px !important;
+        padding: 16px 8px !important;
+    }
+
+    .card-layer-title{
+        font-size: 20px !important;
+    }
+    .card-layer-price{
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width:492px) {
+    .card-product::before{
+        font-size: 16px !important;
+        padding: 16px 8px !important;
+    }
+    .card-product2::before{
+        font-size: 13px !important;
+        top: 10px !important;
+        left: 10px !important;
+        padding: 13px 6px !important;
+        
+    }
+    .card-product3::before{
+        font-size: 13px !important;
+        bottom: 10px !important;
+        left: 10px !important;
+        padding: 13px 6px !important;
+    }
+    .card-product4::before{
+        font-size: 13px !important;
+        bottom: 10px !important;
+        left: 10px !important;
+        padding: 13px 6px !important;
+    }
+
+    .card-layer-title{
+        font-size: 16px !important;
+    }
+    .card-layer-price{
+        font-size: 16px !important;
+    }
+}
